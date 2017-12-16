@@ -13,6 +13,3 @@ def cast_rating(summary):
 	print summary[0].imdb_id
 
 # title.title, title.type, title.year, title.rating, title.genres, title.votes, title.runtime, title.release_date, title.cast_summary]
-
-
-metadata("The Dark Knight")

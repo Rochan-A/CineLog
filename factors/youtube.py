@@ -15,7 +15,7 @@ def youtube_search(options):
 		q=options,
 		type='video',
 		part='id,snippet',
-		maxResults=5
+		maxResults=2
 	).execute()
 
 	search_videos = []
